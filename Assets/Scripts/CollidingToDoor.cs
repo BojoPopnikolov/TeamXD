@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 public class CollidingToDoor : MonoBehaviour
 {
     public GameObject Character;
-    public GameObject Door;
+    public GameObject Key;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == Character)
+        if (collision.gameObject == Key)
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("TuesDungeon", LoadSceneMode.Additive);
 
         
         }
