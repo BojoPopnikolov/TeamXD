@@ -38,27 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Walls
-    uniqueID: 285542731
-    locked: 0
-  - name: Floor
-    uniqueID: 2555500999
-    locked: 0
-  - name: Assets
-    uniqueID: 3046700949
-    locked: 0
-  - name: key
-    uniqueID: 1806378981
+  - name: Background
+    uniqueID: 3568748879
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: lampa
-    uniqueID: 1838879003
-    locked: 0
-  - name: OtherNotes
-    uniqueID: 1300705717
-    locked: 0
-  - name: FirstNote
-    uniqueID: 703919361
+  - name: Sprites
+    uniqueID: 499885731
     locked: 0
