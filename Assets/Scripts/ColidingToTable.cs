@@ -19,12 +19,11 @@ public class ColidingToTable : MonoBehaviour
             ObjtoDestroy.SetActive(false);
 
 
-
         }
 
 
-    }
 
+    }
 
 
 }
