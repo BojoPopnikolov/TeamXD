@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 7f9cbda4ba06243a083751d2870ab0b8
 =======
 guid: 7c72051ad917b3b4eb5a69e89bd8b797
 >>>>>>> ef37d66a62b07fe5f49efd1dfb387290540fac87
+=======
+guid: 617ffc753484b7e46bd578a2ce9b13eb
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -35,7 +39,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -49,7 +57,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 16
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,6 +85,31 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+=======
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -80,10 +117,14 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteID: ac4e07e381df94bbc837151b4780fdb8
 =======
     spriteID: 2664fda987155c743864854549b03de0
 >>>>>>> ef37d66a62b07fe5f49efd1dfb387290540fac87
+=======
+    spriteID: 6b8c687fdca9d224391da2277441c4e9
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
     vertices: []
     indices: 
     edges: []

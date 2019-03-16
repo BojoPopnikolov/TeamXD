@@ -38,6 +38,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< HEAD
   - name: BackGround
     uniqueID: 3478859771
     locked: 0
@@ -46,6 +47,16 @@ TagManager:
     locked: 0
   - name: key
     uniqueID: 1806378981
+=======
+  - name: Walls
+    uniqueID: 285542731
+    locked: 0
+  - name: Floor
+    uniqueID: 2555500999
+    locked: 0
+  - name: Assets
+    uniqueID: 3046700949
+>>>>>>> 6115902d3fd4c402e24d204731aeb139c80ac4b1
     locked: 0
   - name: Default
     uniqueID: 0
