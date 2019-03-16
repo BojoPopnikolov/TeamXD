@@ -47,3 +47,9 @@ TagManager:
   - name: Sprites
     uniqueID: 499885731
     locked: 0
+  - name: OtherRiddles
+    uniqueID: 41557087
+    locked: 0
+  - name: FirstRiddle
+    uniqueID: 3825954241
+    locked: 0
