@@ -103,9 +103,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 69
+        y: 0
         width: 64
-        height: 69
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bb78e8c62d03ca4cbff76ce51e22a3a
+      spriteID: 3c2255ac756d79640a7d67968848b1af
       vertices: []
       indices: 
       edges: []
@@ -123,29 +123,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 69
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a622cf6967f9394db55468b668f6d2a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BookCase_2
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 64
-        height: 69
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,27 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b95ffc8813672ce42961a973ed0890a7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BookCase_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee6a0f54ffdc62a488d8b5fc47b961f6
+      spriteID: c9dc641aa9c56cf4db1f8be38fa8c82d
       vertices: []
       indices: 
       edges: []
