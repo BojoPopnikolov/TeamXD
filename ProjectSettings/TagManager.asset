@@ -38,11 +38,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: BackGround
-    uniqueID: 3478859771
+  - name: Walls
+    uniqueID: 285542731
     locked: 0
-  - name: Middle
-    uniqueID: 118398993
+  - name: Floor
+    uniqueID: 2555500999
+    locked: 0
+  - name: Assets
+    uniqueID: 3046700949
     locked: 0
   - name: Default
     uniqueID: 0
