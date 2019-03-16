@@ -47,6 +47,18 @@ TagManager:
   - name: Assets
     uniqueID: 3046700949
     locked: 0
+  - name: key
+    uniqueID: 1806378981
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: lampa
+    uniqueID: 1838879003
+    locked: 0
+  - name: OtherNotes
+    uniqueID: 1300705717
+    locked: 0
+  - name: FirstNote
+    uniqueID: 703919361
     locked: 0
