@@ -6,29 +6,25 @@ public class Leavesriddle : MonoBehaviour
 {
     public GameObject TheObjectToDestroy;
     public GameObject TheObjectToDestroy2;
+    public GameObject TheObjectToDestroy3;
     public GameObject TheObjectToEnable;
     public GameObject TheObject;
     public GameObject Player;
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject == TheObject)
         {
             TheObjectToEnable.SetActive(true);
-            TheObjectToDestroy2.SetActive(false);
-
-
-
-        }
-
-
-    }
-
-    void OnCollisionExit2D(Collision2D collisionex)
-    {
-        if (collisionex.gameObject == TheObject)
-        {
-
             TheObjectToDestroy.SetActive(false);
+            TheObjectToDestroy2.SetActive(false);
+            TheObjectToDestroy3.SetActive(false);
+
+
+
         }
+
+
     }
+
+
 }

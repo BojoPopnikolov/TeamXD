@@ -8,11 +8,11 @@ public class CollidingToDoor : MonoBehaviour
 {
     public GameObject Character;
     public GameObject Key;
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == Key)
         {
-            SceneManager.LoadScene("TuesDungeon", LoadSceneMode.Additive);
+            SceneManager.LoadScene("TuesDungeon");
 
         
         }

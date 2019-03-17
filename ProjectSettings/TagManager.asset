@@ -53,3 +53,6 @@ TagManager:
   - name: FirstRiddle
     uniqueID: 3825954241
     locked: 0
+  - name: Character
+    uniqueID: 2339869597
+    locked: 0
