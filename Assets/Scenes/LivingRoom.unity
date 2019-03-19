@@ -931,12 +931,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd5da185d3ce4fe4a8c6f190d6fa1cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheObjectToDestroy: {fileID: 927978005}
-  TheObjectToDestroy2: {fileID: 81130125}
-  TheObjectToDestroy3: {fileID: 424668130}
-  TheObjectToEnable: {fileID: 799671658}
-  TheObject: {fileID: 7149041}
+  TheRiddleToDestroy: {fileID: 424668130}
+  TheRiddleToDestroy2: {fileID: 927978005}
+  TheRiddleToDestroy3: {fileID: 81130125}
+  TheRiddleToEnable: {fileID: 799671658}
+  TheObjToCollide: {fileID: 7149041}
   Player: {fileID: 486984144}
+  CheckIfRiddleActive: {fileID: 424668130}
 --- !u!114 &486984154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,12 +950,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4560ca1ce9284273825ddeea9aefce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheObjectToDestroy: {fileID: 81130125}
-  TheObjectToDestroy2: {fileID: 424668130}
-  TheObjectToDestroy3: {fileID: 799671658}
-  TheObjectToEnable: {fileID: 927978005}
-  TheObject: {fileID: 1766069751}
+  RiddleToDestroy: {fileID: 81130125}
+  RiddleToDestroy2: {fileID: 424668130}
+  RiddleToDestroy3: {fileID: 799671658}
+  RiddleToEnable: {fileID: 927978005}
+  TheObjectToCollide: {fileID: 1766069751}
   Player: {fileID: 486984144}
+  CheckIfRiddleActive: {fileID: 799671658}
 --- !u!114 &486984155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,13 +969,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce72b9e220694da2aff7d7811e43530, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjtoDestroy: {fileID: 799671658}
-  ObjtoDestroy2: {fileID: 927978005}
-  ObjtoDestroy3: {fileID: 424668130}
-  ObjToAdd: {fileID: 833006634}
+  RiddleToDestroy1: {fileID: 927978005}
+  RiddleToDestroy2: {fileID: 799671658}
+  RiddleToDestroy3: {fileID: 424668130}
+  RiddleToAdd: {fileID: 81130125}
   Character: {fileID: 486984144}
-  ObjToAdd2: {fileID: 81130125}
-  TheObj: {fileID: 1872249161}
+  AddKey: {fileID: 833006634}
+  TheObjToColideWith: {fileID: 1872249161}
+  CheckIfRiddleActive: {fileID: 927978005}
 --- !u!114 &486984156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,6 +1821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1133530304}
+  - component: {fileID: 1133530305}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -1839,6 +1843,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1133530305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133530303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f793f41694eec4f20ad7a6d8886f33e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1147204775
 GameObject:
   m_ObjectHideFlags: 0

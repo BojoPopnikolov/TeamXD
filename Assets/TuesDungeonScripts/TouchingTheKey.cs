@@ -12,21 +12,15 @@ public class TouchingTheKey : MonoBehaviour
     {
         if (collision.gameObject == Key)
         {
-            if (Input.GetKey("space")) {
-                SceneManager.LoadScene("LivingRoom");
-                
-            
-            
-            }
-            else if (Input.GetKey("escape")) {
-                Application.Quit();
-            
-            
-            
-            }
+            SceneManager.LoadScene("EndGame");
+
+
 
 
         }
+
+
     }
-}
+    }
+
 
